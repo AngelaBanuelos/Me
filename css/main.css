@@ -23,22 +23,6 @@ body {
 	margin-top: 20px;
 	
 }
-.box-shadow-menu {
-  position: relative;
-  padding-left: 1.25em;
-}
-.box-shadow-menu:before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0.25em;
-  width: 1em;
-  height: 0.15em;
-  background: black;
-  box-shadow: 
-    0 0.25em 0 0 black,
-    0 0.5em 0 0 black;
-}
 html, body {
   position: absolute;
   top: 0;
@@ -189,6 +173,15 @@ h2 {
     display: initial;
   }
 }
+#maximation2{
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 50%; right: 87%;
+  margin: -50px 0 0 -50px;
+  -webkit-animation: rotate 2s ease-in-out infinite;
+}
+
 #maximation{
   width: 100px;
   height: 100px;
