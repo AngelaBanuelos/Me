@@ -1340,3 +1340,7 @@ h1 {
   opacity: 1;
   -webkit-transform: translateX(117px) translateY(-53px) translateZ(-18px) rotate3d(1, 1, 1, 9deg) scale(1);
 }
+#nav2{
+  text-align: left;
+  font-size: 20px;
+}
