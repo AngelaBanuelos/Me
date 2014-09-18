@@ -1,28 +1,48 @@
 body {
 	background-color: #265976;
-	color: turquoise;
+	color: black;
 	font-size: 40px;
+}
+#body1{
+  background-image: url('https://unsplash.imgix.net/45/HWijjF7RwOPGEJ1nb4Zb_IMG_3773.jpg?q=75&w=1080&h=1080&fit=max&fm=jpg&auto=format&s=5c4d815f60933514c19eda5655f240eb');
+  background-size: 1500px;
+    background-repeat: no-repeat;
 }
 /* My Name */
 .name{
-   font-family: Helvetica;
+  font-family: 'Playfair Display', serif;
   text-align: center;
-  color: #fff;
+  color: black;
+  margin-right: 50px;
  /* margin-top: 12em;*/
 
 }
 #header{
 	/*height:250px;*/
 }
+#nav1{
+  height: 60px;
+  background-color:gray;
+  opacity: .6;
+  color: black;
+  text-align: left;
+  padding-top: 10px;
+  padding-left: 20px;
+  font-size: 25px;
+}
+#div1{
+color: black;
+}
 
 #aboutme{
 	/*height: 500px;*/
 	width: 800px;
-	background-color: #4F628E;
+	background-color: gray;
 	margin-left: 250px;
-	opacity: .8;
+	opacity: .6;
 	margin-top: 20px;
   font-size: 17px;
+  color: black;
 }
 html, body {
   position: absolute;
@@ -33,12 +53,12 @@ html, body {
   margin: 0;
   padding: 0;
   border: 0;
-  font-family: "
-  font-size: 17px;", Segoe UI, Helvetica, sans-serif;
+  font-family:'Oswald', sans-serif;
   font-size: 14px;
   font-weight: 100;
   color: #fff;
   text-align: center;
+  text-transform: bold;
 }
 h2 {
   color: #333;
