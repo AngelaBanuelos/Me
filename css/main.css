@@ -74,7 +74,6 @@ html, body {
   color: #fff;
   text-align: center;
   text-transform: bold;
-  background-color: #265976;
 }
 h1 {
   font-size: 6em;
@@ -295,3 +294,8 @@ section:nth-of-type(3) {
     width: 100%;
   }  
 }
+.btn, .btn:hover{
+  background-color: transparent;
+  opacity: 0.1;
+}
+
