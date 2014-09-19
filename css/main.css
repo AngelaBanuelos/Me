@@ -7,6 +7,9 @@ body {
   background-image: url('https://unsplash.imgix.net/45/HWijjF7RwOPGEJ1nb4Zb_IMG_3773.jpg?q=75&w=1080&h=1080&fit=max&fm=jpg&auto=format&s=5c4d815f60933514c19eda5655f240eb');
   background-size: 1500px;
     background-repeat: no-repeat;
+    height: inherit;
+    margin: 0px auto;
+    width: 100%;
 }
 /* My Name */
 .name{
@@ -17,6 +20,35 @@ body {
  /* margin-top: 12em;*/
 
 }
+@media screen and (max-width:568px){
+  #body1{
+    width: auto;
+  }
+  #nav1{
+    float:none;
+      width: auto;
+  }
+  #aboutme{
+    width: auto;
+  }
+  
+  .name{
+    width: auto;
+  }
+  #content {
+      float: none;
+      width: 100%;
+    }
+}
+@media screen and (max-width:640px){
+  #aboutme{
+    width: 100%;
+  }
+  #body1{
+    width: 100%;
+  }
+  }
+
 #header{
 	/*height:250px;*/
 }
@@ -27,12 +59,12 @@ body {
   color: black;
   text-align: left;
   padding-top: 10px;
-  padding-left: 50px;
+  padding-left: 500px;
   font-size: 25px;
+ 
 }
-#div1{
-color: black;
-}
+
+
 
 #aboutme{
 	/*height: 500px;*/
