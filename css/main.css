@@ -302,7 +302,7 @@ section:nth-of-type(3) {
   width: 10%;
   height: inherit;
   font-size: 110px;
-  text-align: center;
+  text-align: right;
 }
 .circular{
   width: 50%;
@@ -314,7 +314,14 @@ section:nth-of-type(3) {
  height: inherit;
  margin-left: 10%;
 }
-
+#nav2{
+  width: 100%;
+  height: inherit;
+}
+#body2{
+  width: 100%;
+  height: inherit;
+}
 } \/*#aboutme{
     width: 100%;
   }
