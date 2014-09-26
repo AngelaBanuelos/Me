@@ -2,9 +2,6 @@
   background-image: url('https://unsplash.imgix.net/45/HWijjF7RwOPGEJ1nb4Zb_IMG_3773.jpg?q=75&w=1080&h=1080&fit=max&fm=jpg&auto=format&s=5c4d815f60933514c19eda5655f240eb');
   background-size: 1500px;
     background-repeat: no-repeat;
-    height: inherit;
-    margin: 0px auto;
-    width: 100%;
     color: black;
 }
 #body2{
@@ -302,13 +299,20 @@ section:nth-of-type(3) {
   height: inherit;
 }
 .name{
-  width: 25%;
+  width: 10%;
   height: inherit;
+  font-size: 110px;
+  text-align: center;
 }
 .circular{
   width: 50%;
   height: 30%;
   margin-left: 30%;
+}
+#aboutme{ 
+ width: 80%;
+ height: inherit;
+ margin-left: 10%;
 }
 
 } \/*#aboutme{
