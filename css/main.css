@@ -1,4 +1,3 @@
-
 #body1{
   background-image: url('https://unsplash.imgix.net/45/HWijjF7RwOPGEJ1nb4Zb_IMG_3773.jpg?q=75&w=1080&h=1080&fit=max&fm=jpg&auto=format&s=5c4d815f60933514c19eda5655f240eb');
   background-size: 1500px;
@@ -15,8 +14,8 @@
 }
 #body3{
   background-image: url('https://unsplash.imgix.net/5/night-city.jpg?q=75&fm=jpg&auto=format&s=0117c023a6f6d16daa0d365eea2ceb89');
-background-size: 1500px;
-    background-repeat: no-repeat;
+  background-size: 1500px;
+  background-repeat: no-repeat;
 }
 /* My Name */
 .name{
@@ -28,8 +27,10 @@ background-size: 1500px;
  /* margin-top: 12em;*/
 
 }
-#nav1{
-  height: 60px;
+a:link {
+    color: black;
+}
+.nav1{
   background-color:gray;
   opacity: .6;
   color: black;
@@ -37,6 +38,8 @@ background-size: 1500px;
   padding-top: 10px;
   padding-left: 150px;
   font-size: 20px;
+  height: inherit;
+  margin: 0 auto;
 
 }
 #nav2{
@@ -47,6 +50,10 @@ background-size: 1500px;
   background-color: #113B51;
   opacity: .8;
   height: 60px;
+}
+.modal-content{
+color: black;
+
 }
 #aboutme{
 	/*height: 500px;*/
@@ -210,11 +217,10 @@ h2 {
   transform: scale(1.5);
   opacity: .15;
 }
-
 .break {
   display: none;
 }
-
+/*
 @media all and (max-width: 650px) {
   .image-container {
     margin: 30px;
@@ -238,8 +244,7 @@ section:nth-of-type(3) {
   background-color: #2f2f2f;
   color: #fff;
 }
-
-
+/*
 @media all and (max-width: 650px) {
   .image-container {
     margin: 30px;
@@ -263,10 +268,10 @@ section:nth-of-type(3) {
   box-shadow: 0 0 8px rgba(0, 0, 0, .8);
   -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
   -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  color: black;
   }
-
-/* media queries */
-@media screen and (max-width:568px){
+/* media queries 
+@media (max-width:568px){
   #body1{
     width: auto;
   }
@@ -286,15 +291,29 @@ section:nth-of-type(3) {
       width: 100%;
     }
 }
-@media screen and (max-width:640px){
-  #aboutme{
+*/
+@media (max-width: 320px) {
+  #body3{
+    width: 100%;
+    height: inherit;
+  }
+  .nav{
+  width: 20%;
+  height: inherit;
+}
+.name{
+  width: 25%;
+  height: inherit;
+}
+.circular{
+  width: 50%;
+  height: 30%;
+  margin-left: 30%;
+}
+
+} \/*#aboutme{
     width: 100%;
   }
   #body1{
     width: 100%;
-  }  
-}
-.btn, .btn:hover{
-  
-}
-
+  }  */
